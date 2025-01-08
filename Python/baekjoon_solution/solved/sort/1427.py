@@ -1,0 +1,5 @@
+n=int(input())
+chars = list(map(int,str(n)))
+chars.sort(reverse=True)
+result=int(''.join(map(str,chars)))
+print(result)

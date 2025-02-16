@@ -24,3 +24,20 @@
 - 알고리즘 문제 해결 능력 향상
 - 코딩 인터뷰 완벽 준비
 - 다양한 프로그래밍 패러다임 탐구 및 구현
+<br>
+
+## VSCode 자동완성 방지
+| ctrl/cmd + shift + P 에서 Preferences: Open User Settings (JSON) 으로 JSON 파일 접근, 아래와 같은 내용 추가
+
+```JSON
+{
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.snippetSuggestions": "none",
+    "editor.hover.enabled": false,
+    "github.copilot.enable": false
+}
+```

@@ -1,0 +1,86 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+# macOS 환경 관련 제외 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Java 관련 제외 파일
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot 관련 제외 파일
+/target/
+/out/
+
+# 환경 및 IDE 설정 파일 제외
+/.idea/
+/.vscode/
+*.iml
+
+# 로그 및 캐시 파일 제외
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 시스템 파일 제외
+Thumbs.db
+Desktop.ini
+
+# 사용자별 설정 파일 제외
+*.env
+*.local
+
+# Bin 디렉터리 제외
+/bin/
+
+# Gradle 관련 제외 파일
+/.gradle/
+/build/
+
+# Maven 관련 제외 파일
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# 기타 불필요한 파일 제외
+*.~*
+*.orig
+
+# Git 관련 제외 파일
+.git/
+.gitignore.swp
+.gitmodules

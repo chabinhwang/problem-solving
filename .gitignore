@@ -80,6 +80,7 @@ Desktop.ini
 *.~*
 *.orig
 *.code-workspace
+tempCodeRunnerFile.java
 
 # Git 관련 제외 파일
 .git/

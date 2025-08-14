@@ -1,22 +1,40 @@
+<!-- 백준 티어표 (v2.0) -->
+<div align="center">
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=chabin37" alt="백준티어"/>
+</div>
+
+
 # 📚 코딩 테스트 연습 리포지토리
+
+
 ## 🚀 소개
 이 리포지토리는 코딩 테스트와 기술 인터뷰 준비를 위해 풀었던 알고리즘 문제와 솔루션을 모아둔 공간입니다. 문제 해결 과정을 기록하고, 학습한 내용을 체계적으로 관리하기 위해 제작되었습니다.
+
 
 ## 🗂️ 리포지토리 구조
 
 리포지토리는 다음과 같은 구조로 구성되어 있습니다:
 ```
- 📂 /JAVA
-   ├── 📂 DataStructure
-   └── 📂 ect
+📂 /JAVA
+   ├── 📂 BackTracking (백트래킹)
+   ├── 📂 BFS (너비 우선 탐색)
+   ├── 📂 DataStructure (자료구조)
+   ├── 📂 DFS (깊이 우선 탐색)
+   ├── 📂 Dynamic Programming (동적 계획법)
+   ├── 📂 Greedy (탐욕법)
+   ├── 📂 Sorting (정렬)
+   ├── 📂 String (문자열)
+   ├── 📂 ect (기타)
+   └── 📂 복사용
 
-📂 /Python
+📂 /python
    ├── 📂 baekjoon_solution
+   │   ├── 📂 not_solved (미해결)
+   │   └── 📂 solved (해결완료)
    ├── 📂 KUPC2023
-   ├── 📂 solve_with_programming_1_2
-   └── 🐍 test.py
+   └── 📂 solve_with_programming_1_2
 
- 📂 /SQL
+📂 /SQL
    └── 📂 programmers
 ```
 

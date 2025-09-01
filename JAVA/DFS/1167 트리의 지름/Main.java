@@ -5,12 +5,12 @@ public class Main {
     public static int edgeNode;
     public static boolean[] visited;
     public static Map<Integer,ArrayList<edge>> vMap;
-    //public static int[][] vCostArr;
+
     public static int max = -1;
     public static void main(String[]args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int V = Integer.parseInt(br.readLine());
-        //vCostArr = new int[V+1][V+1]; //[1][3]이면, vertex 1에서 3으로의 비용을 말함.
+        
         vMap = new HashMap<>();
         StringTokenizer st;
         for(int i = 0; i < V; i++){

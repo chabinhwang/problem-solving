@@ -62,17 +62,24 @@
 
 > 혹은, .code-workspace 파일의 settings에 아래 내용을 추가
 ```JSON
-        "editor.quickSuggestions": {
-            "other": false,
-            "comments": false,
-            "strings": false
-        },
-        "editor.suggestOnTriggerCharacters": false,
-        "editor.wordBasedSuggestions": "off",
-        "editor.parameterHints.enabled": false,
-        "editor.snippetSuggestions": "none",
-        "github.copilot.enable": {
-            "*": false
-        }
+{
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.snippetSuggestions": "none",
+    "github.copilot.enable": false,
+    "editor.hover.enabled": "off",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.codeLens": false,
+    "editor.lightbulb.enabled": "off"
 
+}
 ```

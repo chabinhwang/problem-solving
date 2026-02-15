@@ -38,6 +38,10 @@
    └── 📂 programmers
 ```
 
+## 🧪 Competitive Programming Helper (cph)
+- 각 문제별 폴더에는 `.cph` 파일이 존재합니다.
+- 해당 폴더 내 `.cph`에는 VS Code `Competitive Programming Helper (cph)` 익스텐션 실행을 위한 정보가 포함되어 있어, 익스텐션을 통해 테스트 케이스를 수행할 수 있습니다.
+
 ## 🏆 목표
 - 알고리즘 문제 해결 능력 향상
 - 코딩 인터뷰 완벽 준비

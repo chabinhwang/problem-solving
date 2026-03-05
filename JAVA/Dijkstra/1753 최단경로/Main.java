@@ -30,7 +30,6 @@ public class Main {
             int v = Integer.parseInt(st.nextToken());
             int w = Integer.parseInt(st.nextToken());
             graph[u].add(new int[] { v, w });
-            // System.out.println("[B]node:" + u + " ,상대노드:" + v + ", 가중치: " + w);
         }
 
         dij = new int[V + 1];
@@ -42,7 +41,6 @@ public class Main {
         int node = K;
         dij[node] = 0;
         while (count < V) {
-            // System.out.println("while시작");
             visit[node] = true;
             int nextNode = 0;
 
@@ -51,7 +49,6 @@ public class Main {
                 int[] arr = graph[node].get(i);
                 int v = arr[0]; // 상대 노드
                 int w = arr[1]; // 가중치
-                // System.out.println("node:" + node + " ,상대노드:" + v + ", 가중치: " + w);
                 
                 // 기존 연결 길이와, 시작->node까지 최소값(dij[node])+node->v까지 거리 합 중 최소값
                 dij[v] = Math.min(dij[v], dij[node] + w);

@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Main {
     static int[][] map;
-    static int[][] dp; // 판다가 (a, b)에서 얼마나 더 갈 수 있는지 저장
+    static int[][] dp;
     static int[] dr = { -1, 0, 1, 0 };
     static int[] dc = { 0, -1, 0, 1 };
     static int max = Integer.MIN_VALUE;
